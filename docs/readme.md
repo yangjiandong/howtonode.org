@@ -22,15 +22,15 @@ http://localhost:8080
     git branch yang
     git co yang
     --github create repo
-    git remote add yang git@github.com:yangjiandong/howtonode.org.git
-    git push -u yang yang
+    git remote add yh git@github.com:yangjiandong/howtonode.org.git
+    git push -u yh master
 
-    git remote rename yang yh
+    --git remote rename yang yh
     --远程更新
     git pull yh
     or
     git fetch yh
 
-    git merge yh/yang
+    git merge yh/master
 
 ```
